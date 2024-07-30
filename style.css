@@ -1,0 +1,64 @@
+body{
+    font-family: sans-serif;
+}
+
+
+
+.card{
+    border: 1px solid lightgray;
+    padding: 35px;
+    margin: 10px auto;
+    width: 500px;
+    border-radius: 14px;
+    
+}
+
+.content{
+    text-align: center;
+}
+
+.card1{
+text-align: left;
+    border: 1px solid lightgray;
+    padding: 35px;
+    margin: 10px auto;
+    width: 500px;
+    border-radius: 14px;
+
+line-height: 5px;
+
+}
+
+
+.profile{
+    width: 600px;
+    margin: 10px auto;
+    position: relative;
+
+}
+.cover{
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    object-position: center;
+}
+.user{
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    position: absolute;
+    left: 60px;
+    bottom: -60px;
+    border: 5px solid white;
+}
+body {
+    background-image: url('cloud2.jpg');
+    background-size: cover; 
+    background-position:right;
+    background-repeat: no-repeat; 
+    margin: 0;
+    padding: 0;
+}
+div img {
+    display:flow-root ; 
